@@ -11,6 +11,7 @@ import Education from "./Pages/Education/Education";
 import Project from "./Pages/Project/Project";
 import Contact from "./Pages/Contact/Contact";
 import Headroom from "react-headroom";
+import BackToTopBtn from "./Components/BackToTopBtn";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -20,9 +21,9 @@ function App() {
 
   return (
     <>
+      <Navbar onClick={handleClick} click={click} />
       <Headroom>
         <Sidebar onClick={handleClick} click={click} />
-        <Navbar onClick={handleClick} click={click} />
       </Headroom>
       <Home />
       <About />
@@ -30,6 +31,7 @@ function App() {
       <Service />
       <Education />
       <Project />
+      <BackToTopBtn />
       <Contact />
     </>
   );
