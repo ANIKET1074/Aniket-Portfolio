@@ -6,7 +6,7 @@ var projects = {
       skills: "HTML , CSS , JS , PHP , MySQL , Tailwind",
       content:
         "This is our final DE project. In this project we came up with the unique idea to provide the tiffin service in unique way. This platform also provide the employeement to house women by that the housewomen can register there self on our platform and provide healthy and trasty food to customers.",
-      projectLink: "https://github.com/ANIKET1074/ADA-Project",
+      projectLink: "https://github.com/ANIKET1074/Modified_Tiffin_Service",
     },
     {
       image: "./images/projects/i-job.jpg",
