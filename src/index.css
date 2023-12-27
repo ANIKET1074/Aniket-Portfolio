@@ -30,10 +30,10 @@ code {
 /*  Transition dark bright button */
 
 .darkBtn {
-  width: 70px;
+  width: 67px;
   background-color: rgba(0, 0, 0, 0.738);
-  height: 40px;
-  padding: 6px 6px;
+  height: 35px;
+  padding: 7px 4px;
   display: flex;
   align-items: center;
   border-radius: 22px;
@@ -51,7 +51,9 @@ body {
 }
 
 .dark-mode {
-  background-color: #28293d;
+  /* background-color: #28293d; */
+  background-color: #021637ee;
+  /* background-color: rgb(13, 60, 136); */
   color: rgb(247, 247, 247);
 }
 
@@ -68,8 +70,10 @@ body {
 /*  */
 
 .active {
-  border-bottom: 2px solid #ffffff;
-  /* color: white; */
+  border-bottom: 2px solid #5219d1;
+  /* border-bottom: 2px solid white; */
+  /* color: black; */
+  color: #5219d1;
 }
 
 /* .aboutimage {
@@ -122,3 +126,41 @@ body {
 {
     opacity: 1;
 } */
+
+.borderBottom {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.6rem;
+}
+
+.border1 {
+  width: 17rem;
+  height: 0.5rem;
+  background: #5219d1;
+  border-radius: 999px;
+}
+
+.border2 {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #5219d1;
+  border-radius: 50%;
+}
+
+#topbtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 100;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50px;
+  background-color: #1f2833;
+}
+
+#topbtn:hover {
+  background-color: #5219d1;
+}
