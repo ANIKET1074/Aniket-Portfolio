@@ -11,10 +11,15 @@
     flex-direction: column-reverse;
     gap: 1rem;
     padding: 20px;
+    margin-top: 0;
   }
 
   .aboutImg {
     margin: 0 auto;
+  }
+
+  .aboutimage {
+    display: none;
   }
 }
 
