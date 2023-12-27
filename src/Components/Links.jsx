@@ -1,4 +1,11 @@
 import React from "react";
+import at from "../../public/images/svg-icons/at.svg";
+import phone from "../../public/images/svg-icons/phone.svg";
+import home from "../../public/images/svg-icons/home.svg";
+import twitterLogo from "../../public/images/icons/twitter.svg";
+import githubLogo from "../../public/images/icons/github.svg";
+import linkeDinLogo from "../../public/images/icons/linkedin.svg";
+import instaLogo from "../../public/images/icons/instagram.svg";
 
 const Links = () => {
   return (
@@ -9,7 +16,7 @@ const Links = () => {
           className="mail flex gap-4 w-[100%] items-center"
         >
           <img
-            src="./images/svg-icons/at.svg"
+            src={at}
             alt=""
             className="border-2 border-white rounded-full w-[2.3rem] p-1"
           />
@@ -20,7 +27,7 @@ const Links = () => {
           className="mail flex gap-4 w-[100%] items-center"
         >
           <img
-            src="./images/svg-icons/phone.svg"
+            src={phone}
             alt=""
             className="border-2 border-white rounded-full w-[2.3rem] p-1"
           />
@@ -28,7 +35,7 @@ const Links = () => {
         </a>
         <div className="mail flex gap-4 w-[100%] items-center">
           <img
-            src="./images/svg-icons/home.svg"
+            src={home}
             alt=""
             className="border-2 border-white rounded-full w-[2.3rem] p-1"
           />
@@ -44,7 +51,7 @@ const Links = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./images/icons/github.svg"
+              src={githubLogo}
               alt=""
               className="w-[2rem] hover:scale-110 duration-500 ease-in-out"
             />
@@ -56,7 +63,7 @@ const Links = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./images/icons/linkedin.svg"
+              src={linkeDinLogo}
               alt=""
               className="w-[2rem] hover:scale-110 duration-500 ease-in-out"
             />
@@ -68,7 +75,7 @@ const Links = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./images/icons/twitter.svg"
+              src={twitterLogo}
               alt=""
               className="w-[2rem] hover:scale-110 duration-500 ease-in-out"
             />
@@ -80,7 +87,7 @@ const Links = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./images/icons/instagram.svg"
+              src={instaLogo}
               alt=""
               className="w-[2rem] hover:scale-110 duration-500 ease-in-out"
             />
