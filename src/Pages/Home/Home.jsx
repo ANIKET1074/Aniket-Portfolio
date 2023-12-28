@@ -2,6 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Home.css";
+import homeImg from "../../../public/images/profile/my-profile1.png";
+import twitterLogo from "../../../public/images/icons/twitter.svg";
+import githubLogo from "../../../public/images/icons/octocat.svg";
+import linkeDinLogo from "../../../public/images/icons/linkedin.svg";
+import astric from "../../../public/images/svg-icons/Asterick.png";
+import astricFull from "../../../public/images/svg-icons/Asterick-full.png";
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -17,29 +23,25 @@ const Home = () => {
   });
   return (
     <>
-      <div className="home flex py-[4rem] h-full flex-wrap" id="home">
-        <div className="myImage flex flex-[40%] justify-end mt-[2rem] pt-3">
-          <img
-            src="./images/1261.jpg"
-            alt=""
-            className="myImg  rounded-full "
-          />
-        </div>
-        <div className="desc flex flex-[60%] mb-[3rem] mt-[2rem] justify-center">
-          <div className=" md:h-[35%] md:w-[60%] content flex-col">
-            <h2 className="font-medium text-[2.75rem] myName">Aniket Jadav</h2>
+      <div className="home flex pt-[2rem] pb-[4rem] h-full flex-wrap" id="home">
+        <div className="desc flex flex-[50%] mb-[3rem] mt-[2rem] justify-center">
+          <div className=" md:h-[35%] md:w-[65%] content flex-col">
+            <h2 className="font-medium text-[3.25rem] myName text-[#5219d1]">
+              Aniket Jadav
+            </h2>
             <div className="heading flex items-center h-[2rem] ">
-              <span className=" text-[1.25rem] ">{text}</span>
-              <span className=" text-[1.25rem] ">
+              <span className=" text-[1.75rem] ">{text}</span>
+              <span className=" text-[1.75rem] ">
                 <Cursor cursorStyle="|" cursorBlink />
               </span>
             </div>
-            <p className="description mt-[1rem]">
-              I am currently in Sem 7 at Government Engineering College
-              Gandhinagar . This is my Portfolio which i used to create using
-              HTML , CSS , JS , Tailwind . I got 8.05 CGPA . Lorem ipsum dolor
-              sit amet consectetur adipisicing elit.
-            </p>
+            <div className="my-12 quote">
+              <blockquote className="relative">
+                <p className="description mt-[1rem] before:content-['\201C'] before:font-serif before:absolute before:top-[5px] before:left-[-35px] before:text-[5rem]  before:opacity-50 before:transform after:content-['\201D'] after:font-serif after:absolute after:-bottom-6 after:right-[152px] after:text-[5rem] after:opacity-50 after:transform after:-translate-x-2 after:-translate-y-2 text-3xl">
+                  The best way to predict your future is to create it.
+                </p>
+              </blockquote>
+            </div>
             <div className="btn">
               <Link
                 id="btns"
@@ -48,12 +50,6 @@ const Home = () => {
               >
                 Download CV
               </Link>
-              {/* <Link
-                to="#contact"
-                className="btns flex mt-[3.5rem] font-bold w-[10rem] justify-center border-4 border-[#521d91] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] hover:shadow-lg hover:shadow-indigo-400 text-white rounded-full p-3 gap-3"
-              >
-                Contact
-              </Link> */}
             </div>
             <div className="links flex gap-[2rem] justify-start items-center mt-[2rem]  ">
               <a
@@ -63,7 +59,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./images/icons/octocat.svg"
+                  src={githubLogo}
                   alt=""
                   className="w-[2.5rem] h-[2.5rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] rounded-[100%] border border-[#521d91] hover:scale-110 duration-500 ease-in-out"
                 />
@@ -75,7 +71,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./images/icons/linkedin.svg"
+                  src={linkeDinLogo}
                   alt=""
                   className="w-[2.5rem] h-[2.5rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] border border-[#521d91] rounded-full hover:scale-110 duration-500 ease-in-out"
                 />
@@ -87,12 +83,25 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./images/icons/twitter.svg"
+                  src={twitterLogo}
                   alt=""
                   className="w-[2.5rem] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] border border-[#521d91] rounded-full h-[2.5rem] hover:scale-110 duration-500 ease-in-out"
                 />
               </a>
             </div>
+            <div className="astric w-[30%] mt-[3rem] ">
+              <img src={astricFull} alt="" className="w-[40%]" />
+            </div>
+          </div>
+        </div>
+
+        <div className="myImage flex flex-[50%] h-[50%] justify-center pt-3">
+          <div className="profileImage w-[100%] h-[100%] flex ">
+            <img src={homeImg} alt="" className="myImg " />
+            {/* <img src={Ldots} alt="" className="w-[18%] h-[18%]" /> */}
+          </div>
+          <div className="star w-[10%] mt-[1rem]">
+            <img src={astric} alt="" className="h-[25%]" />
           </div>
         </div>
       </div>
