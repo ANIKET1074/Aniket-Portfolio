@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
 import "../../index.css";
+import menuSvg from "../../../public/images/svg-icons/menu.svg";
+import lightSvg from "../../../public/images/svg-icons/light-mode.svg";
+import darkSvg from "../../../public/images/svg-icons/dark-mode.svg";
 
 const Navbar = ({ onClick, click }) => {
   //   const setDarkMode = () => {
@@ -18,8 +21,10 @@ const Navbar = ({ onClick, click }) => {
   // const [theme, setTheme] = useState();
   function darkTheme() {
     var element = document.body;
+    var element2 = document.querySelector("nav");
     var mover = document.getElementById("img1");
     element.classList.toggle("dark-mode");
+    element2.classList.toggle("dark-mode");
 
     var contact = document.getElementById("contact");
     contact.classList.toggle("dark-contact");
@@ -29,17 +34,17 @@ const Navbar = ({ onClick, click }) => {
 
   return (
     <>
-      <header className=" w-[100%] flex justify-center">
+      <header className=" w-[100%] flex justify-center ">
         <nav className="flex justify-between items-center w-[100%] nav">
           <div className="icon flex font-bold text-3xl">Aniket</div>
           <div className="nav_menu" id="nav-menu">
-            <ul className="flex gap-8 text-lg nav_list text-white">
+            <ul className="flex gap-8 text-lg nav_list ">
               <li className="nav_item cursor-pointer">
                 <Link
                   spy={true}
                   to="home"
                   smooth={true}
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                   activeClass="active"
                 >
                   Home
@@ -51,7 +56,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   to="about"
                   smooth={true}
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                 >
                   About
                 </Link>
@@ -62,7 +67,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="skills"
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                 >
                   Skills
                 </Link>
@@ -73,7 +78,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="service"
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                 >
                   Service
                 </Link>
@@ -84,7 +89,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="education"
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                 >
                   Education
                 </Link>
@@ -95,7 +100,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="projects"
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                 >
                   Projects
                 </Link>
@@ -106,7 +111,7 @@ const Navbar = ({ onClick, click }) => {
                   spy={true}
                   smooth={true}
                   to="contact"
-                  className="nav_link hover:border-b-2 hover:border-[#ffffff]"
+                  className="nav_link hover:border-b-2 hover:border-[#5219d1]"
                 >
                   Contact
                 </Link>
@@ -118,18 +123,10 @@ const Navbar = ({ onClick, click }) => {
             <button className="darkBtn" onClick={() => darkTheme()}>
               <div className="img1" id="img1"></div>
               <div className="imageContainer">
-                <img
-                  src="./images/svg-icons/light-mode.svg"
-                  alt=""
-                  className="w-[27px]"
-                />
+                <img src={lightSvg} alt="" className="w-[27px]" />
               </div>
               <div className="imageContainer">
-                <img
-                  src="./images/svg-icons/dark-mode.svg"
-                  alt=""
-                  className="w-[27px]"
-                />
+                <img src={darkSvg} alt="" className="w-[27px]" />
               </div>
             </button>
 
@@ -138,11 +135,7 @@ const Navbar = ({ onClick, click }) => {
               className="btn_toggle"
               id="nav-toggle"
             >
-              <img
-                src="./images/svg-icons/menu.svg"
-                alt=""
-                className="w-[2rem] menuSvg"
-              />
+              <img src={menuSvg} alt="" className="w-[2rem] menuSvg" />
             </button>
           </div>
         </nav>
