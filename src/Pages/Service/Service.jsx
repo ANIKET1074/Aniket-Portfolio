@@ -19,8 +19,13 @@ const Service = () => {
     <>
       <div className="services min-h-fit mt-[5rem]" id="service">
         <h2 className="font-bold text-5xl text-center">Services</h2>
-        <div className="service__border m-auto border-2 rounded-[1rem] border-[#5219d1] p-[2rem] shadow-2xl h-[35rem] w-[70%] mt-[3rem]">
-          <div className="serv flex gap-[3.25rem] flex-wrap justify-center mt-[3rem] m-auto">
+        <div className="borderBottom w-[100%] m-auto ">
+          <div className="border2"></div>
+          <div className="border1 "></div>
+          <div className="border2"></div>
+        </div>
+        <div className="service__border m-auto border-2 rounded-[1rem] border-[#5219d1]  p-[4rem] shadow-2xl h-full flex justify-center w-[70%] mt-[3rem]">
+          <div className="serv flex gap-[3.25rem] flex-wrap justify-center m-auto">
             {service.map((dt, index) => {
               return (
                 <ServicesCard
