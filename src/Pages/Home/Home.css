@@ -1,27 +1,60 @@
+.myImg {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+
 @media screen and (max-width: 400px) {
   .myName {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 }
 
 @media screen and (max-width: 720px) {
+  .myName {
+    font-size: 2.75rem;
+    font-weight: 900;
+  }
   .home {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 0.5rem;
   }
   .myImage {
-    display: flex;
-    justify-content: center;
+    margin-top: 0;
+    margin: auto;
   }
 
   .myImg {
-    width: 255px;
-    height: 255px;
+    width: 90%;
+    height: 90%;
     margin: 2px auto;
   }
 
+  .profileImage {
+    padding-left: 0;
+  }
+
+  .star {
+    display: none;
+  }
+
   .content {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
+  }
+
+  .description::after {
+    right: 5px;
+    padding-left: 15px;
+  }
+
+  .description::before {
+    top: 10px;
+    left: -2px;
+  }
+
+  .quote {
+    text-align: center;
   }
 }
