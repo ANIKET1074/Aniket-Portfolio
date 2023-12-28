@@ -36,12 +36,13 @@
 }
 
 .projectCard .projectDesc a {
-  font-size: 0.85rem;
+  font-size: 1rem;
+  font-weight: 500;
   background-color: white;
   color: black;
   width: fit-content;
-  border-radius: 1rem;
-  padding: 0.35rem;
+  border-radius: 2rem;
+  padding: 0.75rem;
 }
 /* 
 .projectcode {
