@@ -19,6 +19,11 @@ const Project = () => {
     <>
       <div className="project min-h-[100vh]" id="projects">
         <h1 className="font-bold text-5xl text-center mt-[2rem]">Projects</h1>
+        <div className="borderBottom w-[100%] m-auto ">
+          <div className="border2"></div>
+          <div className="border1 "></div>
+          <div className="border2"></div>
+        </div>
         <div className="w-[100%] flex items-center flex-col">
           <div className="c w-[100%] flex flex-wrap gap-[2rem] px-[1rem] mt-[0.5rem] py-[2rem] justify-center">
             {data.map((d, index) => {
