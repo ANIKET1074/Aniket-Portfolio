@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import closeBtn from "../../../public/images/svg-icons/close.svg";
 
 const Sidebar = ({ onClick, click }) => {
   return (
@@ -14,11 +15,7 @@ const Sidebar = ({ onClick, click }) => {
               className="nav_close"
               id="nav-close"
             >
-              <img
-                src="./images/svg-icons/close.svg"
-                alt=""
-                className="w-[25px]"
-              />
+              <img src={closeBtn} alt="" className="w-[25px]" />
             </button>
             <ul className="flex gap-8 text-lg nav_list" id="nav-list">
               <li className="nav_item">
