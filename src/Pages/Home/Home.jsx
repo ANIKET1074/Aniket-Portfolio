@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Home.css";
 import homeImg from "../../../public/images/profile/my-profile1.png";
@@ -43,13 +42,14 @@ const Home = () => {
               </blockquote>
             </div>
             <div className="btn">
-              <Link
+              <a
                 id="btns"
-                to="#"
+                href="/src/Data/Resume/Aniket-Resume.pdf"
                 className="btns flex mt-[2rem] font-bold w-[10rem] justify-center border-4 border-[#521d91] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] shadow-lg text-white rounded-full p-3 gap-3 hover:shadow-lg hover:shadow-indigo-400"
+                download
               >
                 Download CV
-              </Link>
+              </a>
             </div>
             <div className="links flex gap-[2rem] justify-start items-center mt-[2rem]  ">
               <a
