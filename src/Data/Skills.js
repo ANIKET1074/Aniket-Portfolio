@@ -1,4 +1,14 @@
 import img1 from "../../src/assets/images/icons/html5.svg";
+import img2 from "../../src/assets/images/icons/css.svg";
+import img3 from "../../src/assets/images/icons/javascript.svg";
+import img4 from "../../src/assets/images/icons/java.svg";
+import img5 from "../../src/assets/images/icons/php.svg";
+import img6 from "../../src/assets/images/icons/mysql-6.svg";
+import img7 from "../../src/assets/images/icons/figma.svg";
+import img8 from "../../src/assets/images/icons/bootstrap.svg";
+import img9 from "../../src/assets/images/icons/tailwind-css.svg";
+import img10 from "../../src/assets/images/icons/office.svg";
+import img11 from "../../src/assets/images/icons/git.svg";
 
 var skills = {
   data: [
@@ -7,87 +17,87 @@ var skills = {
       name: "HTML",
     },
     {
-      image: "../../src/assets/images/icons/css.svg",
+      image: img2,
       name: "CSS",
     },
     {
-      image: "../../src/assets/images/icons/javascript.svg",
+      image: img3,
       name: "JavaScript",
     },
     {
-      image: "../../src/assets/images/icons/java.svg",
+      image: img4,
       name: "Java",
     },
     {
-      image: "../../src/assets/images/icons/php.svg",
+      image: img5,
       name: "PHP",
     },
     {
-      image: "../../src/assets/images/icons/mysql-6.svg",
+      image: img6,
       name: "MySQL",
     },
     {
-      image: "../../src/assets/images/icons/figma.svg",
+      image: img7,
       name: "Figma",
     },
     {
-      image: "../../src/assets/images/icons/bootstrap.svg",
+      image: img8,
       name: "Bootstrap",
     },
     {
-      image: "../../src/assets/images/icons/tailwind-css.svg",
+      image: img9,
       name: "Tailwind",
     },
     {
-      image: "../../src/assets/images/icons/office.svg",
+      image: img10,
       name: "Microsoft Office",
     },
     {
-      image: "../../src/assets/images/icons/git.svg",
+      image: img11,
       name: "Git",
     },
     {
-      image: "../../src/assets/images/icons/html5.svg",
+      image: img1,
       name: "HTML",
     },
     {
-      image: "../../src/assets/images/icons/css.svg",
+      image: img2,
       name: "CSS",
     },
     {
-      image: "../../src/assets/images/icons/javascript.svg",
+      image: img3,
       name: "JavaScript",
     },
     {
-      image: "../../src/assets/images/icons/java.svg",
+      image: img4,
       name: "Java",
     },
     {
-      image: "../../src/assets/images/icons/php.svg",
+      image: img5,
       name: "PHP",
     },
     {
-      image: "../../src/assets/images/icons/mysql-6.svg",
+      image: img6,
       name: "MySQL",
     },
     {
-      image: "../../src/assets/images/icons/figma.svg",
+      image: img7,
       name: "Figma",
     },
     {
-      image: "../../src/assets/images/icons/bootstrap.svg",
+      image: img8,
       name: "Bootstrap",
     },
     {
-      image: "../../src/assets/images/icons/tailwind-css.svg",
+      image: img9,
       name: "Tailwind",
     },
     {
-      image: "../../src/assets/images/icons/office.svg",
+      image: img10,
       name: "Microsoft Office",
     },
     {
-      image: "../../src/assets/images/icons/git.svg",
+      image: img11,
       name: "Git",
     },
   ],
