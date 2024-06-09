@@ -4,10 +4,12 @@
   transition: 5s;
   height: 200px;
   align-items: center;
-  &:hover {
-    animation-play-state: paused;
-  }
 }
+
+.slide-wrapper:hover {
+  animation-play-state: paused;
+}
+
 .skills-contianer {
   cursor: pointer;
   transition: 0.5s ease-in-out;

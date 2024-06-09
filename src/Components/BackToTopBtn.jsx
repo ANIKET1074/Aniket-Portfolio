@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import arrowUp from "../../public/images/svg-icons/arrow-up.svg";
+import arrowUp from "../assets/images/svg-icons/arrow-up.svg";
 
 const BackToTopBtn = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Education.css";
-import education from "../../../public/images/svg-icons/graduation-cap.svg";
+import education from "../../assets/images/svg-icons/graduation-cap.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

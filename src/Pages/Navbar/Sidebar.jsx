@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
-import closeBtn from "../../../public/images/svg-icons/close.svg";
+import closeBtn from "../../assets/images/svg-icons/close.svg";
 
 const Sidebar = ({ onClick, click }) => {
   return (

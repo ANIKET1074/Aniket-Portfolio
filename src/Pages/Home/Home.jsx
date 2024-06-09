@@ -1,12 +1,14 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Home.css";
-import homeImg from "../../../public/images/profile/my-profile1.png";
-import twitterLogo from "../../../public/images/icons/twitter.svg";
-import githubLogo from "../../../public/images/icons/octocat.svg";
-import linkeDinLogo from "../../../public/images/icons/linkedin.svg";
-import astric from "../../../public/images/svg-icons/Asterick.png";
-import astricFull from "../../../public/images/svg-icons/Asterick-full.png";
+import homeImg from "../../assets/images/profile/my-profile1.png";
+import twitterLogo from "../../assets/images/icons/twitter.svg";
+import githubLogo from "../../assets/images/icons/octocat.svg";
+import linkeDinLogo from "../../assets/images/icons/linkedin.svg";
+import astric from "../../assets/images/svg-icons/Asterick.png";
+import astricFull from "../../assets/images/svg-icons/Asterick-full.png";
+import { Link } from "react-router-dom";
+import resume from "../../Data/Resume/Aniket-Resume.pdf";
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -42,14 +44,15 @@ const Home = () => {
               </blockquote>
             </div>
             <div className="btn">
-              <a
+              <Link
                 id="btns"
-                href="/src/Data/Resume/Aniket-Resume.pdf"
+                to={resume}
+                target="_blank"
                 className="btns flex mt-[2rem] font-bold w-[10rem] justify-center border-4 border-[#521d91] bg-gradient-to-tl from-[#4a42ec] bg-[#521d91] shadow-lg text-white rounded-full p-3 gap-3 hover:shadow-lg hover:shadow-indigo-400"
                 download
               >
                 Download CV
-              </a>
+              </Link>
             </div>
             <div className="links flex gap-[2rem] justify-start items-center mt-[2rem]  ">
               <a

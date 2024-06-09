@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
 import "../../index.css";
-import menuSvg from "../../../public/images/svg-icons/menu.svg";
-import lightSvg from "../../../public/images/svg-icons/light-mode.svg";
-import darkSvg from "../../../public/images/svg-icons/dark-mode.svg";
+import menuSvg from "../../assets/images/svg-icons/menu.svg";
+import lightSvg from "../../assets/images/svg-icons/light-mode.svg";
+import darkSvg from "../../assets/images/svg-icons/dark-mode.svg";
 
 const Navbar = ({ onClick, click }) => {
   //   const setDarkMode = () => {

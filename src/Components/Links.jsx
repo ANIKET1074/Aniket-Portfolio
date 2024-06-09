@@ -1,11 +1,11 @@
 import React from "react";
-import at from "../../public/images/svg-icons/at.svg";
-import phone from "../../public/images/svg-icons/phone.svg";
-import home from "../../public/images/svg-icons/home.svg";
-import twitterLogo from "../../public/images/icons/twitter.svg";
-import githubLogo from "../../public/images/icons/github.svg";
-import linkeDinLogo from "../../public/images/icons/linkedin.svg";
-import instaLogo from "../../public/images/icons/instagram.svg";
+import at from "../assets/images/svg-icons/at.svg";
+import phone from "../assets/images/svg-icons/phone.svg";
+import home from "../assets/images/svg-icons/home.svg";
+import twitterLogo from "../assets/images/icons/twitter.svg";
+import githubLogo from "../assets/images/icons/github.svg";
+import linkeDinLogo from "../assets/images/icons/linkedin.svg";
+import instaLogo from "../assets/images/icons/instagram.svg";
 
 const Links = () => {
   return (
