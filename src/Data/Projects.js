@@ -1,7 +1,7 @@
 var projects = {
   data: [
     {
-      image: "./images/projects/Modified-Tiffin-Service.png",
+      image: "../../src/assets/images/projects/Modified-Tiffin-Service.png",
       project_name: "Modified Tiffin Service",
       skills: "HTML , CSS , JS , PHP , MySQL , Tailwind",
       content:
@@ -9,7 +9,7 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/Modified_Tiffin_Service",
     },
     {
-      image: "./images/projects/i-job.jpg",
+      image: "../../src/assets/images/projects/i-job.jpg",
       project_name: "I - Job",
       skills:
         "HTML , CSS , JS , NodeJS , ExpressJS , Pug , MongoDB , Bootstrap",
@@ -18,14 +18,14 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/ADA-Project",
     },
     {
-      image: "./images/projects/news-site.png",
+      image: "../../src/assets/images/projects/news-site.png",
       project_name: "News-site",
       skills: "HTML , CSS , JS , PHP , MySQL",
       content: "This is practise project by using the php",
       projectLink: "https://github.com/ANIKET1074/News-site",
     },
     {
-      image: "./images/projects/mess-management.jpg",
+      image: "../../src/assets/images/projects/mess-management.jpg",
       project_name: "Mess Managament",
       skills:
         "ReactJs , NodeJS , ExpressJS , MongoDB , Tailwind , Other ReactJS Framework",
@@ -34,7 +34,7 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/Mess_Management",
     },
     {
-      image: "./images/projects/ipl-data-analysis.jpg",
+      image: "../../src/assets/images/projects/ipl-data-analysis.jpg",
       project_name: "Ipl data set Analysis",
       skills: "Python , Pandas , Numpy , Matplotlib, Seaborn",
       content:
@@ -42,7 +42,7 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/ADA-Project",
     },
     {
-      image: "./images/projects/weather-project.png",
+      image: "../../src/assets/images/projects/weather-project.png",
       project_name: "Weather Website",
       skills: "HTML , CSS , Tailwind , PHP , Weather-API",
       content:
