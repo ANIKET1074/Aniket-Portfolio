@@ -1,7 +1,9 @@
+import img1 from "../../src/assets/images/icons/html5.svg";
+
 var skills = {
   data: [
     {
-      image: "../../src/assets/images/icons/html5.svg",
+      image: img1,
       name: "HTML",
     },
     {
