@@ -1,27 +1,34 @@
+import img1 from "../../src/assets/images/svg-icons/code.svg";
+import img2 from "../../src/assets/images/svg-icons/database.svg";
+import img3 from "../../src/assets/images/svg-icons/web-development.svg";
+import img4 from "../../src/assets/images/svg-icons/Database-management.svg";
+import img5 from "../../src/assets/images/svg-icons/analytics.svg";
+import img6 from "../../src/assets/images/svg-icons/writing.svg";
+
 var services = {
   data: [
     {
-      image: "../../src/assets/images/svg-icons/code.svg",
+      image: { img1 },
       name: "Frontend Developer",
     },
     {
-      image: "../../src/assets/images/svg-icons/database.svg",
+      image: { img2 },
       name: "Backend Developer",
     },
     {
-      image: "../../src/assets/images/svg-icons/web-development.svg",
+      image: { img3 },
       name: "Web Design",
     },
     {
-      image: "../../src/assets/images/svg-icons/Database-management.svg",
+      image: { img4 },
       name: "Database Management",
     },
     {
-      image: "../../src/assets/images/svg-icons/analytics.svg",
+      image: { img5 },
       name: "Data Analytics",
     },
     {
-      image: "../../src/assets/images/svg-icons/writing.svg",
+      image: { img6 },
       name: "Content Writing",
     },
   ],
