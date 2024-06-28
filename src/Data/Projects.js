@@ -1,7 +1,14 @@
+import img1 from "../../src/assets/images/projects/Modified-Tiffin-Service.png";
+import img2 from "../../src/assets/images/projects/i-job.jpg";
+import img3 from "../../src/assets/images/projects/news-site.png";
+import img4 from "../../src/assets/images/projects/mess-management.jpg";
+import img5 from "../../src/assets/images/projects/ipl-data-analysis.jpg";
+import img6 from "../../src/assets/images/projects/weather-project.png";
+
 var projects = {
   data: [
     {
-      image: "../../src/assets/images/projects/Modified-Tiffin-Service.png",
+      image: img1,
       project_name: "Modified Tiffin Service",
       skills: "HTML , CSS , JS , PHP , MySQL , Tailwind",
       content:
@@ -9,7 +16,7 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/Modified_Tiffin_Service",
     },
     {
-      image: "../../src/assets/images/projects/i-job.jpg",
+      image: img2,
       project_name: "I - Job",
       skills:
         "HTML , CSS , JS , NodeJS , ExpressJS , Pug , MongoDB , Bootstrap",
@@ -18,14 +25,14 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/ADA-Project",
     },
     {
-      image: "../../src/assets/images/projects/news-site.png",
+      image: img3,
       project_name: "News-site",
       skills: "HTML , CSS , JS , PHP , MySQL",
       content: "This is practise project by using the php",
       projectLink: "https://github.com/ANIKET1074/News-site",
     },
     {
-      image: "../../src/assets/images/projects/mess-management.jpg",
+      image: img4,
       project_name: "Mess Managament",
       skills:
         "ReactJs , NodeJS , ExpressJS , MongoDB , Tailwind , Other ReactJS Framework",
@@ -34,7 +41,7 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/Mess_Management",
     },
     {
-      image: "../../src/assets/images/projects/ipl-data-analysis.jpg",
+      image: img5,
       project_name: "Ipl data set Analysis",
       skills: "Python , Pandas , Numpy , Matplotlib, Seaborn",
       content:
@@ -42,7 +49,7 @@ var projects = {
       projectLink: "https://github.com/ANIKET1074/ADA-Project",
     },
     {
-      image: "../../src/assets/images/projects/weather-project.png",
+      image: img6,
       project_name: "Weather Website",
       skills: "HTML , CSS , Tailwind , PHP , Weather-API",
       content:

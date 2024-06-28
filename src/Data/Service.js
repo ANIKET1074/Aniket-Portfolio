@@ -8,27 +8,27 @@ import img6 from "../../src/assets/images/svg-icons/writing.svg";
 var services = {
   data: [
     {
-      image: { img1 },
+      image: img1,
       name: "Frontend Developer",
     },
     {
-      image: { img2 },
+      image: img2,
       name: "Backend Developer",
     },
     {
-      image: { img3 },
+      image: img3,
       name: "Web Design",
     },
     {
-      image: { img4 },
+      image: img4,
       name: "Database Management",
     },
     {
-      image: { img5 },
+      image: img5,
       name: "Data Analytics",
     },
     {
-      image: { img6 },
+      image: img6,
       name: "Content Writing",
     },
   ],

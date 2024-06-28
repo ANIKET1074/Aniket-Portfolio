@@ -2,6 +2,7 @@ import React from "react";
 import "../Pages/Project/Project.css";
 
 const ProjectCard = ({ image, pname, skills, content, projectlink, aos }) => {
+  console.log(image);
   return (
     <>
       <div
